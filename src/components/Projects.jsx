@@ -1,5 +1,14 @@
 import { PROJECTS } from "../constants"
 
+const container = (delay) => ({
+    hidden: {x: -100, opacity:0},
+    visible: {
+        x: 0,
+        opacity: 1,
+        transition: {duration: 0.5, delay: delay}
+    }
+})
+
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">

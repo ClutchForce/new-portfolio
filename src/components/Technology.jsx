@@ -5,6 +5,14 @@ import {DiRedis} from 'react-icons/di'
 import {FaNodeJs} from 'react-icons/fa'
 import {BiLogoPostgresql} from 'react-icons/bi'
 
+const container = (delay) => ({
+    hidden: {x: -100, opacity:0},
+    visible: {
+        x: 0,
+        opacity: 1,
+        transition: {duration: 0.5, delay: delay}
+    }
+})
 
 const Technology = () => {
   return (
