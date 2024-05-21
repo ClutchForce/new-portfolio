@@ -11,10 +11,18 @@ const Navbar = () => {
             <img src={logo}  alt='logo' className='mx-2 w-24' />
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl '>
-            <FaLinkedin />
-            <FaGithub />
-            <FaInstagram />
-            <FaCoffee /> 
+            <a href='https://www.linkedin.com/in/paul-gherghel-582619200' target='_blank' rel='noopener noreferrer'>
+                <FaLinkedin />
+            </a>
+            <a href='https://github.com/ClutchForce' target='_blank' rel='noopener noreferrer'>
+                <FaGithub />
+            </a>
+            <a href='https://www.instagram.com/paul_gherghel_?igsh=NnM0OTF5ZzA0MWVy&utm_source=qr' target='_blank' rel='noopener noreferrer'>
+                <FaInstagram />
+            </a>
+            <a href='https://www.buymeacoffee.com/PaulGherghel' target='_blank' rel='noopener noreferrer'>
+                <FaCoffee />
+            </a>
         </div>
 
     </nav>
