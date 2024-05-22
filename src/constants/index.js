@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I studies software engineering at the University of Western Ontario. I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I studied software engineering at the University of Western Ontario. I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
@@ -18,7 +18,7 @@ export const EXPERIENCES = [
   },
   {
     year: "2022 - 2023",
-    role: "Tranco Technician Engineer",
+    role: "Tranco Engineering Technician",
     company: "JFE Shoji Power",
     description: `Oversaw transformer core manufacturing and assembly processes. Conducted quality control inspections to ensure compliance with industry standards. Collaborated with cross-functional teams to troubleshoot and resolve technical issues.`,
     technologies: [],
@@ -27,8 +27,8 @@ export const EXPERIENCES = [
   {
     year: "2019 - 2020",
     role: "AGI Developer",
-    company: "Caprit",
-    description: `Developed Adjusted gross income (AGI) reports for residential properties. Implemented data visualization tools to analyze and present financial data. Collaborated with the finance team to automate data collection and reporting processes.`,
+    company: "Capreit",
+    description: `Developed Above Guideline Increase (AGI) reports for residential properties. Implemented data visualization tools to analyze and present financial data. Collaborated with the finance team to automate data collection and reporting processes.`,
     technologies: ["Exel", "SAP", "Python"],
     link: "https://www.capreit.ca/"
 
