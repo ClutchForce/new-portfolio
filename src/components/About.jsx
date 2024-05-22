@@ -1,6 +1,8 @@
 import aboutImg from '../assets/about.webp'
 import { ABOUT_TEXT } from '../constants'
 import { motion } from 'framer-motion'
+import Spline from '@splinetool/react-spline';
+
 
 const About = () => {
   return (
@@ -21,7 +23,9 @@ const About = () => {
             className="w-full lg:w-1/2 lg:p-8"
             >
                 <div className="flex items-center justify-center">
-                    <img src={aboutImg} alt="about" className='rounded-2xl'/> {/* className="h-# w-# mx-#" */}
+                    {/*<img src={aboutImg} alt="about" className='rounded-2xl'/>  className="h-# w-# mx-#" */}
+                    <Spline scene="https://prod.spline.design/0QXdhITW1dCFMApg/scene.splinecode" />
+
                 </div>
             </motion.div>
             <motion.div 
