@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Splinetest from "./components/Test1/Splinetest";
+import Mediatest from "./components/Test2/Mediatest";
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { BASE_URL } from "./constants";
@@ -33,6 +34,10 @@ const App = () => {
             <Route path={`${BASE_URL}tests`} element={<>
               <Navbar />
               <Splinetest />
+            </>} />
+            <Route path={`${BASE_URL}tests2`} element={<>
+              <Navbar />
+              <Mediatest />
             </>} />
           </Routes>
         </div>
