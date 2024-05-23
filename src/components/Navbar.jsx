@@ -26,6 +26,11 @@ const Navbar = () => {
                 Go to Tests2
             </button>
             </Link>
+            <Link to={`${import.meta.env.BASE_URL}tests3`}>
+            <button className="px-4 py-2 bg-blue-700 text-white rounded">
+                Go to Tests3
+            </button>
+            </Link>
             <a href='https://www.linkedin.com/in/paul-gherghel-582619200' target='_blank' rel='noopener noreferrer'>
                 <FaLinkedin />
             </a>

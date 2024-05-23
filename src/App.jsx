@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Splinetest from "./components/Test1/Splinetest";
 import Mediatest from "./components/Test2/Mediatest";
+import Instafeedtest from "./components/Test3/instafeedtest";
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { BASE_URL } from "./constants";
@@ -38,6 +39,10 @@ const App = () => {
             <Route path={`${BASE_URL}tests2`} element={<>
               <Navbar />
               <Mediatest />
+            </>} />
+            <Route path={`${BASE_URL}tests3`} element={<>
+              <Navbar />
+              <Instafeedtest />
             </>} />
           </Routes>
         </div>
