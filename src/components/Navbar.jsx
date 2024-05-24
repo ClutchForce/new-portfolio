@@ -16,7 +16,7 @@ const Navbar = () => {
             </Link>
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl '>
-            <Link to={`${import.meta.env.BASE_URL}tests`}>
+            {/* <Link to={`${import.meta.env.BASE_URL}tests`}>
             <button className="px-4 py-2 bg-purple-900 text-white rounded">
                 Go to Tests
             </button>
@@ -30,7 +30,7 @@ const Navbar = () => {
             <button className="px-4 py-2 bg-blue-700 text-white rounded">
                 Go to Tests3
             </button>
-            </Link>
+            </Link> */}
             <a href='https://www.linkedin.com/in/paul-gherghel-582619200' target='_blank' rel='noopener noreferrer'>
                 <FaLinkedin />
             </a>

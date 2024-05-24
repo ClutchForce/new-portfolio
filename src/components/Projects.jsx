@@ -1,5 +1,8 @@
 import { PROJECTS } from "../constants"
 import { motion } from "framer-motion"
+import { Link } from "react-router-dom";
+import { BASE_URL } from '../constants'
+
 
 const Projects = () => {
   return (
@@ -34,7 +37,15 @@ const Projects = () => {
                     initial={{ opacity: 0, x: 100 }}
                     transition={{duration: 0.5}}
                     >
-                        <h6 className="mb-2 font-semibold">{project.title}</h6>
+                        {project.link == "Print" ? (
+                            <Link to={`${import.meta.env.BASE_URL}insta`}>
+                                <h6 className="mb-2 font-semibold">{project.title}</h6>
+                            </Link>
+                        ) : (
+                            <Link to={project.link}>
+                            <h6 className="mb-2 font-semibold">{project.title}</h6>
+                            </Link>
+                        )}
                         <p className="mb-4 text-sm text-neutral-400">{project.description}</p>
                         {project.technologies.map((tech, index) => (
                             

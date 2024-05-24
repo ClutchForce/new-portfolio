@@ -53,6 +53,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "mySQL"],
+    link: "",
   },
   {
     title: "Social Media App",
@@ -60,6 +61,7 @@ export const PROJECTS = [
     description:
       "An accessible web application designed to empower individuals with intellectual disabilities and their caretakers.",
     technologies: ["CSS", "React", "Firebase", "Google Cloud"],
+    link: "https://github.com/ClutchForce/C.H.E.E.R-app",
   },
   {
     title: "Portfolio Website",
@@ -67,6 +69,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Vue.js"],
+    link: "https://github.com/ClutchForce/new-portfolio",
   },
   {
     title: "Blogging Platform",
@@ -74,6 +77,16 @@ export const PROJECTS = [
     description:
       "A django CMS platform for creating and publishing blog posts, with features like rich text editing, commenting.",
     technologies: ["Python", "Django", "CSS", "PostgreSQL"],
+    link: "https://github.com/ClutchForce/mysite",
+
+  },
+  {
+    title: "3D-Printing Service",
+    image: project4,
+    description:
+      "Use 3D printing in hobby projects. Make custom prints for friends.",
+    technologies: ["Ender 3", "Cura", "Fusion 360", "Onshape"],
+    link: "Print",
   },
 ];
 

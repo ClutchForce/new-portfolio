@@ -3,7 +3,7 @@ import { InstagramEmbed } from 'react-social-media-embed';
 
 
 
-const Instafeedtest = () => {
+const Instafeed = () => {
   return (
     <div>
       <h1 className='text-4xl text-center'>Instafeedtest</h1>
@@ -23,4 +23,4 @@ const Instafeedtest = () => {
   );
 };
 
-export default Instafeedtest
+export default Instafeed
