@@ -1,4 +1,6 @@
 import React from 'react'
+import { FacebookEmbed } from 'react-social-media-embed';
+
 
 const Mediatest = () => {
   const iframeStyle = {
@@ -21,6 +23,11 @@ const Mediatest = () => {
           frameBorder="0"
           allowFullScreen
         />
+      </div>
+      <div className="flex justify-center bg-white p-4 rounded-lg max-w-[520px] ">
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <FacebookEmbed url="https://www.facebook.com/TitansFT/posts/pfbid02oCB918jsS5tvKZ2Xb1CAF9WCg5BTRtZvpC9Fbv6vt8gsDcuEsw6qv326RacyJj9jl" width={500} />
+        </div>
       </div>
       </div>
     </div>
