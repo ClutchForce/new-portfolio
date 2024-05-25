@@ -1,7 +1,8 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import printproj from "../assets/projects/print.png";
+import project1 from "../assets/projects/dash.png";
+import project2 from "../assets/projects/cheer.png";
+import project3 from "../assets/projects/port.png";
+import project4 from "../assets/projects/blog.png";
 
 export const BASE_URL = "/new-portfolio/";
 
@@ -48,20 +49,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "3D-Printing Service",
+    image: printproj,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "mySQL"],
-    link: "",
-  },
-  {
-    title: "Social Media App",
-    image: project2,
-    description:
-      "An accessible web application designed to empower individuals with intellectual disabilities and their caretakers.",
-    technologies: ["CSS", "React", "Firebase", "Google Cloud"],
-    link: "https://github.com/ClutchForce/C.H.E.E.R-app",
+      "Use 3D printing in hobby projects. Make custom prints for friends.",
+    technologies: ["Ender 3", "Cura", "Fusion 360", "Onshape"],
+    link: "Print",
   },
   {
     title: "Portfolio Website",
@@ -72,22 +65,30 @@ export const PROJECTS = [
     link: "https://github.com/ClutchForce/new-portfolio",
   },
   {
+    title: "Social Media App",
+    image: project2,
+    description:
+      "An accessible web application designed to empower individuals with intellectual disabilities and their caretakers.",
+    technologies: ["CSS", "React", "Firebase", "Google Cloud"],
+    link: "https://github.com/ClutchForce/C.H.E.E.R-app",
+  },
+  {
+    title: "E-Commerce Website",
+    image: project1,
+    description:
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    technologies: ["HTML", "CSS", "React", "Node.js", "mySQL"],
+    link: "",
+  },
+  {
     title: "Blogging Platform",
     image: project4,
     description:
       "A django CMS platform for creating and publishing blog posts, with features like rich text editing, commenting.",
     technologies: ["Python", "Django", "CSS", "PostgreSQL"],
     link: "https://github.com/ClutchForce/mysite",
+  },
 
-  },
-  {
-    title: "3D-Printing Service",
-    image: project4,
-    description:
-      "Use 3D printing in hobby projects. Make custom prints for friends.",
-    technologies: ["Ender 3", "Cura", "Fusion 360", "Onshape"],
-    link: "Print",
-  },
 ];
 
 export const CONTACT = {

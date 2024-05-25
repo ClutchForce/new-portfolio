@@ -24,12 +24,26 @@ const Projects = () => {
                     initial={{ opacity: 0, x: -100 }}
                     transition={{duration: 0.5}}
                     >
-                        <img 
-                            src={project.image} 
-                            alt={project.title} 
-                            width={150} 
-                            height={150}
-                            className="mb-6 rounded"/>
+                        
+                        {project.link == "Print" ? (
+                            <Link to={`${import.meta.env.BASE_URL}insta`}>
+                                <img 
+                                src={project.image} 
+                                alt={project.title} 
+                                width={150} 
+                                height={150}
+                                className="mb-6 rounded"/>
+                            </Link>
+                        ) : (
+                            <Link to={project.link}>
+                                <img 
+                                src={project.image} 
+                                alt={project.title} 
+                                width={150} 
+                                height={150}
+                                className="mb-6 rounded"/>
+                            </Link>
+                        )}
                     </motion.div>
                     <motion.div 
                     className="w-full max-w-xl lg:w-3/4"
