@@ -61,7 +61,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Vue.js"],
+    technologies: ["HTML", "TailwindCSS", "React", "Vue.js"],
     link: "https://github.com/ClutchForce/new-portfolio",
   },
   {
