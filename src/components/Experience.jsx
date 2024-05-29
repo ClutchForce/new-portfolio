@@ -27,9 +27,9 @@ const Experience = () => {
                     transition={{duration: 1}}
                     className="w-full max-w-xl lg:w-3/4"
                     >
-                        <h6 className="mb-2 font-semibold">{experience.role}
+                        <h6 className="mb-2 font-semibold hover:underline" >{experience.role}
                             <a 
-                            className="text-sm text-purple-100"
+                            className="text-sm text-purple-100 hover:underline"
                             href={experience.link}
                             target='_blank' 
                             rel='noopener noreferrer'
@@ -37,7 +37,7 @@ const Experience = () => {
                         </h6>
                         <p className="mb-4 text-sm text-neutral-400">{experience.description}</p>
                         {experience.technologies.map((tech, index) => (
-                            <span key={index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500 ">{tech}</span>
+                            <span key={index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500 hover:bg-neutral-700">{tech}</span>
                         ))}
                     </motion.div>
                 </div>

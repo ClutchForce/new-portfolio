@@ -53,11 +53,11 @@ const Projects = () => {
                     >
                         {project.link == "Print" ? (
                             <Link to={`${import.meta.env.BASE_URL}insta`}>
-                                <h6 className="mb-2 font-semibold">{project.title}</h6>
+                                <h6 className="mb-2 font-semibold hover:underline">{project.title}</h6>
                             </Link>
                         ) : (
                             <Link to={project.link}>
-                            <h6 className="mb-2 font-semibold">{project.title}</h6>
+                            <h6 className="mb-2 font-semibold hover:underline">{project.title}</h6>
                             </Link>
                         )}
                         <p className="mb-4 text-sm text-neutral-400">{project.description}</p>
