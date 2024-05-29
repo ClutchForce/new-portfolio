@@ -10,8 +10,11 @@ const Contact = () => {
     <div className="relative">
       {/* <SplineWrapper scene="https://prod.spline.design/a0WlUCbntITjst14/scene.splinecode" /> */}
       {/* Fail attempt at making interactive overlay under contact form div. Time wasted: 1h */}
-      <div className="relative z-10 bg-black bg-opacity-0 p-8">
-        <div className="border-b border-neutral-900 pb-20">
+      <div className="absolute inset-0 z-0 pointer-events-auto">
+        <Spline scene="https://prod.spline.design/a0WlUCbntITjst14/scene.splinecode" />
+      </div>
+      <div className="relative z-10 bg-black bg-opacity-0 p-8 pointer-events-none">
+        <div className="border-b border-neutral-900 pb-20 ">
           <motion.h1
             className="my-10 text-center text-4xl text-white"
             whileInView={{ opacity: 1, y: 0 }}
@@ -45,7 +48,7 @@ const Contact = () => {
                 <br />
                 <br />
                 <strong>Email:</strong>{' '}
-                <a href={`mailto:${CONTACT.email}`} className="text-blue-500">
+                <a href={`mailto:${CONTACT.email}`} className="text-blue-500 pointer-events-auto">
                   {CONTACT.email}
                 </a>
               </motion.address>
@@ -61,7 +64,7 @@ const Contact = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="mb-4">
                     <input
-                      className="form-input w-full px-4 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      className="pointer-events-auto form-input w-full px-4 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                       id="name"
                       name="name"
                       placeholder="Name"
@@ -71,7 +74,7 @@ const Contact = () => {
                   </div>
                   <div className="mb-4">
                     <input
-                      className="form-input w-full px-4 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      className="pointer-events-auto form-input w-full px-4 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                       id="email"
                       name="email"
                       placeholder="Email"
@@ -82,7 +85,7 @@ const Contact = () => {
                 </div>
                 <div className="mb-4">
                   <textarea
-                    className="form-textarea w-full px-4 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="pointer-events-auto form-textarea w-full px-4 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                     id="message"
                     name="message"
                     placeholder="Message"
@@ -92,7 +95,7 @@ const Contact = () => {
                 </div>
                 <div className="text-center">
                   <button
-                    className="mt-4 rounded bg-neutral-900 px-4 py-2 text-lg font-medium text-purple-500 hover:bg-neutral-700"
+                    className="pointer-events-auto mt-4 rounded bg-neutral-900 px-4 py-2 text-lg font-medium text-purple-500 hover:bg-neutral-700 "
                     type="submit"
                   >
                     Send
@@ -104,7 +107,7 @@ const Contact = () => {
         </div>
       </div>
       <br />
-      <Spline scene="https://prod.spline.design/a0WlUCbntITjst14/scene.splinecode" />
+      {/* <Spline scene="https://prod.spline.design/a0WlUCbntITjst14/scene.splinecode" /> */}
 
     </div>
     
