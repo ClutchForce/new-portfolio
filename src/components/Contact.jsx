@@ -85,7 +85,7 @@ const Contact = () => {
                 </div>
                 <div className="mb-4">
                   <textarea
-                    className="pointer-events-auto form-textarea w-full px-4 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="pointer-events-auto form-textarea w-full px-4 py-2 bg-neutral-900 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                     id="message"
                     name="message"
                     placeholder="Message"
@@ -95,7 +95,7 @@ const Contact = () => {
                 </div>
                 <div className="text-center">
                   <button
-                    className="pointer-events-auto mt-4 rounded bg-neutral-900 px-4 py-2 text-lg font-medium text-purple-500 hover:bg-neutral-700 "
+                    className="pointer-events-auto mt-4 rounded bg-neutral-900 px-4 py-2 text-lg font-medium text-purple-500  hover:bg-neutral-700 "
                     type="submit"
                   >
                     Send
@@ -107,7 +107,7 @@ const Contact = () => {
         </div>
       </div>
       <br />
-      {/* <Spline scene="https://prod.spline.design/a0WlUCbntITjst14/scene.splinecode" /> */}
+      {/* ╭∩╮( •̀_•́ )╭∩╮ */}
 
     </div>
     
