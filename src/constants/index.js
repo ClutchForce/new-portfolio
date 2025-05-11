@@ -12,12 +12,12 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "2023 - 2024",
     role: "Full Stack Developer",
-    company: "Mediq-sys",
-    description: `Designed and developed an administrative dashboard to manage user data and generate reports. Implemented RESTful APIs for data communication between the frontend and backend. Collaborated with the design team to create user-friendly interfaces and improve the overall user experience.`,
-    technologies: ["Virtual Box", "Meteor.js", "mongoDB"],
-    link: ""
+    company: "Mediqsys",
+    description: `Created a custom OAuth reverse proxy nginx authentication with HTTPS. Developed an administrative full stack dashboard for user role and permission assignment. Worked with various virtual machine applications and a unix based VM remotely accessed through SSH. Developed an administrative dashboard to manage user data and generate reports. Implemented RESTful APIs for data communication between the frontend and backend. Collaborated with the design team to create user-friendly interfaces and improve the overall user experience.` ,
+    technologies: ["Virtual Box", "Meteor.js", "mongoDB", "Docker", "Nginx"],
+    link: "https://mediqsys.com/"
   },
   {
     year: "2022 - 2023",

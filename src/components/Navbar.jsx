@@ -37,12 +37,6 @@ const Navbar = () => {
             <a href='https://github.com/ClutchForce' target='_blank' rel='noopener noreferrer'>
                 <FaGithub />
             </a>
-            <a href='https://www.instagram.com/paul_gherghel_?igsh=NnM0OTF5ZzA0MWVy&utm_source=qr' target='_blank' rel='noopener noreferrer'>
-                <FaInstagram />
-            </a>
-            <a href='https://www.buymeacoffee.com/PaulGherghel' target='_blank' rel='noopener noreferrer'>
-                <FaCoffee />
-            </a>
         </div>
 
     </nav>

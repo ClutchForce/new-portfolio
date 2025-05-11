@@ -13,6 +13,7 @@ import Instafeed from "./components/Test3/instafeed";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { BASE_URL } from "./constants";
 
+// Use npm run dev to run the app
 
 const App = () => {
   return (
