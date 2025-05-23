@@ -15,6 +15,12 @@ import { BASE_URL } from "./constants";
 
 // Use npm run dev to run the app
 
+// Push to main
+/* 
+source .env
+git push https://ClutchForce:$GITHUB_TOKEN@github.com/ClutchForce/new-portfolio.git main
+*/
+
 const App = () => {
   return (
     <Router>
