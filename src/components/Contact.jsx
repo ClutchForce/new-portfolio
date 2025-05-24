@@ -2,14 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { CONTACT } from '../constants';
 import Spline from '@splinetool/react-spline';
-import SplineWrapper from './Test1/SplineWrapper';
-
 
 const Contact = () => {
   return (
     <div className="relative">
-      {/* <SplineWrapper scene="https://prod.spline.design/a0WlUCbntITjst14/scene.splinecode" /> */}
-      {/* Fail attempt at making interactive overlay under contact form div. Time wasted: 1h */}
       <div className="absolute inset-0 z-0 pointer-events-auto">
         <Spline scene="https://prod.spline.design/a0WlUCbntITjst14/scene.splinecode" />
       </div>

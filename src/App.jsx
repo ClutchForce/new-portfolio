@@ -6,20 +6,12 @@ import Technology from "./components/Technology";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import Splinetest from "./components/Test1/Splinetest";
-import Mediatest from "./components/Test2/Mediatest";
-import Instafeed from "./components/Test3/instafeed";
+import TestRoute from "./components/TestPage/Splinetest";
+import InstaFeed from "./components/Print/instafeed";
+import RobotArm from "./components/Robot/RobotArm";
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { BASE_URL } from "./constants";
-
-// Use npm run dev to run the app
-
-// Push to main
-/* 
-source .env
-git push https://ClutchForce:$GITHUB_TOKEN@github.com/ClutchForce/new-portfolio.git main
-*/
 
 const App = () => {
   return (
@@ -41,15 +33,15 @@ const App = () => {
             </>} />
             <Route path={`${BASE_URL}tests`} element={<>
               <Navbar />
-              <Splinetest />
-            </>} />
-            <Route path={`${BASE_URL}tests2`} element={<>
-              <Navbar />
-              <Mediatest />
+              <TestRoute />
             </>} />
             <Route path={`${BASE_URL}insta`} element={<>
               <Navbar />
-              <Instafeed />
+              <InstaFeed />
+            </>} />
+            <Route path={`${BASE_URL}robot`} element={<>
+              <Navbar />
+              <RobotArm />
             </>} />
           </Routes>
         </div>

@@ -3,6 +3,15 @@ import project1 from "../assets/projects/dash.png";
 import project2 from "../assets/projects/cheer.png";
 import project3 from "../assets/projects/port.png";
 import project4 from "../assets/projects/blog.png";
+import project5 from "../assets/projects/stock.png";
+import project6 from "../assets/projects/fer.png";
+import project7 from "../assets/projects/robot.png";
+import project8 from "../assets/projects/kademlia.png";
+import project9 from "../assets/projects/mern.png";
+import project10 from "../assets/projects/reflex.png";
+import project11 from "../assets/projects/sudo.png";
+import project12 from "../assets/projects/pygame.png";
+
 
 export const BASE_URL = "/new-portfolio/";
 
@@ -52,17 +61,33 @@ export const PROJECTS = [
     title: "3D-Printing Service",
     image: printproj,
     description:
-      "Use 3D printing in hobby projects. Make custom prints for friends.",
+      "Making custom prints for friends and clients. Using 3D printing for hobby projects.",
     technologies: ["Ender 3", "Cura", "Fusion 360", "Onshape"],
     link: "Print",
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Robotic Arm Platform",
+    image: project7, 
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "TailwindCSS", "React", "Vue.js"],
-    link: "https://github.com/ClutchForce/new-portfolio",
+      "An affordable and modular robotic arm system with 3D-printed components, AI vision, and a React control interface designed for students and makers.",
+    technologies: ["React", "OpenCV", "YOLO", "Fusion 360", "3D Printing"],
+    link: "https://github.com/ColeMcClutch/SE4450_Team21_ArmApplication",
+  },
+  {
+    title: "Stock Price Forecasting AI",
+    image: project5, 
+    description:
+      "A machine learning study comparing XGBoost, LSTM, and Lasso Regression to forecast S&P 500 stock prices using historical data and technical indicators.",
+    technologies: ["Python", "XGBoost", "LSTM", "Pandas", "Matplotlib"],
+    link: "https://github.com/KaiOnNg/ML_Project",
+  },
+  {
+    title: "Facial Emotion Recognition AI",
+    image: project6, 
+    description:
+      "A deep learning research project focused on improving facial emotion recognition using ResNet architectures and attention mechanisms on FER2013.",
+    technologies: ["Python", "PyTorch", "ResNet", "Attention", "FER2013"],
+    link: "https://github.com/ClutchForce/AI-Research",
   },
   {
     title: "Social Media App",
@@ -85,9 +110,61 @@ export const PROJECTS = [
     image: project4,
     description:
       "A django CMS platform for creating and publishing blog posts, with features like rich text editing, commenting.",
-    technologies: ["Python", "Django", "CSS", "PostgreSQL"],
+    technologies: ["Python", "Django", "CSS", "PostgreSQL", "GCP"],
     link: "https://github.com/ClutchForce/mysite",
   },
+  {
+    title: "Portfolio Website",
+    image: project3,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "TailwindCSS", "React", "Vue.js"],
+    link: "https://github.com/ClutchForce/new-portfolio",
+  },
+  {
+    title: "Superhero Explorer",
+    image: project9, 
+    description:
+      "A full-stack MERN web app that lets users explore superheroes, create lists, and engage with a community of fans through shared content and comments.",
+    technologies: ["MongoDB", "Express", "React", "Node.js", "AWS"],
+    link: "https://github.com/ClutchForce/MERN-Fullstack-app",
+  },
+  {
+    title: "Kademlia P2P Network",
+    image: project8, 
+    description:
+      "A Node.js-based peer-to-peer network that simulates a Kademlia DHT protocol, enabling dynamic node communication, decentralized data routing, and scalable P2P topology.",
+    technologies: ["Node.js", "Networking", "Sockets", "DHT", "JavaScript"],
+    link: "https://github.com/ClutchForce/Kademlia-P2P-network",
+  },
+  {
+    title: "Reflex Master",
+    image: project10, 
+    description:
+      "A microprocessor-based reflex game inspired by Bop It! that challenges players' reaction time and cognition through rapid audio-visual cues and physical inputs.",
+    technologies: ["C", "Assembly", "Embedded Systems"],
+    link: "https://github.com/ClutchForce/Reflex-Master",
+  },
+  {
+    title: "Sudo Uno",
+    image: project11, 
+    description:
+      "A multi-user terminal-based UNO game built with a C++ server and Python client, featuring real-time multiplayer over a custom TCP protocol and retro-styled CLI gameplay.",
+    technologies: ["C++", "Python", "TCP Sockets", "Multithreading"],
+    link: "https://github.com/RaddedMC/sudo-uno",
+  },
+  {
+    title: "Pygame Project",
+    image: project12,
+    description:
+      "A 2D RPG dungeon crawler built with Python and Pygame, featuring sprite animations, multiple levels, and a turn-based boss battle inspired by classic Pokémon combat.",
+    technologies: ["Python", "Pygame"],
+    link: "https://github.com/ClutchForce/Pygame-Project",
+  }
+  
+  
+  
+  
 
 ];
 

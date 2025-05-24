@@ -24,7 +24,6 @@ const Projects = () => {
                     initial={{ opacity: 0, x: -100 }}
                     transition={{duration: 0.5}}
                     >
-                        
                         {project.link == "Print" ? (
                             <Link to={`${import.meta.env.BASE_URL}insta`}>
                                 <img 
@@ -34,6 +33,7 @@ const Projects = () => {
                                 height={150}
                                 className="mb-6 rounded"/>
                             </Link>
+                            // Implement a way for the user to go to the print page and the robot arm page using the router if the link is either 'Print' or 'Robot' but behaves the same if you click any other link just uses the link in the project object.
                         ) : (
                             <Link to={project.link}>
                                 <img 
