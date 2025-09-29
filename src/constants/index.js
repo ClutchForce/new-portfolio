@@ -41,7 +41,7 @@ export const EXPERIENCES = [
     role: "AGI Developer",
     company: "Capreit",
     description: `Developed Above Guideline Increase (AGI) reports for residential properties. Implemented data visualization tools to analyze and present financial data. Collaborated with the finance team to automate data collection and reporting processes.`,
-    technologies: ["Exel", "SAP", "Python"],
+    technologies: ["Excel", "SAP", "Python"],
     link: "https://www.capreit.ca/"
 
   },
